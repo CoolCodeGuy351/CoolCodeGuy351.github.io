@@ -1,0 +1,172 @@
+/*    * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+      * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`        */
+
+body{
+    margin: 0 0 0 0;
+    background-image: url(../images/ep_naturalwhite.png)
+}
+
+/* NAV BAR */
+nav{
+    width:100%;
+    height: 85px;
+    background-color: white; 
+    border-bottom: solid 1px grey;
+}
+
+.name{
+    font-family:  'Georgia', Times, Times New Roman, serif;
+    font-size: 1.6em;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    padding-top: 30px;
+    background-color: #4aaaa5;
+    height: 55px;
+    padding-left: 30px;
+    width: 220px;
+    border: none;
+    color: white;
+}
+
+a{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #777777;
+    font-size: 1.4em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-left: solid #777777;
+    
+}
+
+.right-most-link{
+    margin-right: 0;
+}
+
+.nav-content-div{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.no-border{
+    border-left: none;
+}
+
+/* Main Section - - - -  This section houses the left and right containers within */
+
+.main-section-container{
+    width: 960px;
+    height: 100%;
+    margin: 50px auto;
+}
+
+/* Left Container */
+
+.container-title{
+    margin-left: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+.left-container{
+    width: 650px;
+    height: 100%;
+    display: inline-block;
+    background-color: white;
+    border: solid 1px #4b4c4f;
+}
+
+.main-text{
+    line-height: 150%;
+    font-size: 1.4em;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #777777;
+}
+
+
+/* Social Container */
+
+.social-container{
+    width 270px;
+    float: right;
+    background-color: white;
+    border: solid 1px #4b4c4f;
+}
+
+
+.container-header{
+    margin: 10px 55px;
+}
+
+.img-spacing{
+    margin: 10px;
+}
+
+#name{
+    font-family: 'Georgia', Times, Times New Roman, serif;;
+}
+
+#social-header{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.my-img{
+    float: left;
+    height: 200px;
+    width: 160px;
+    margin: 10px 20px 0px 20px;
+    
+}
+
+hr{
+    border-color: #777777;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Portfolio Left Container */
+
+.port-img{
+    height: 200px;
+    width: 160px;
+    display: inline-block;
+}
+
+.port-img:nth-child(odd) {
+    margin-left: 70px;
+}
+
+.image-div{
+    display: inline-block;
+    height: 30%;
+    width: 35%;
+    margin: 3% 5%;
+    position: relative;
+}
+
+.port-img-title{
+     position: absolute;
+     display: block;
+     bottom: 0px;
+     left: 50px;
+     width:160px;
+     background-color:#4aaaa5;
+     margin-left: 20px;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     text-align: center;
+     
+}
+
+/* FORM AREA */
+
+form{
+    margin: 30px 30px;
+}
+
+.form-text{
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
